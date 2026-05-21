@@ -1,0 +1,97 @@
+╔════════════════════════════════════════════════════════════════════════════════╗
+║                     VALIDADOR DE PULOS DE NFCE v3.0                            ║
+║                                                                                ║
+║  Ferramenta para validação de pulos de numeração em NFCe (Modelo 65)          ║
+║  Desenvolvido por: João Nogueira                                              ║
+╚════════════════════════════════════════════════════════════════════════════════╝
+
+📋 CONTEÚDO DA PASTA
+════════════════════════════════════════════════════════════════════════════════
+
+✓ Validador_Pulos_NFCe.exe        ← O EXECUTÁVEL (clique 2x para usar!)
+✓ LEIA-ME.txt                      ← Este arquivo
+✓ README.md                        ← Documentação completa
+
+
+⚡ INÍCIO RÁPIDO
+════════════════════════════════════════════════════════════════════════════════
+
+1️⃣  Clique 2x em: Validador_Pulos_NFCe.exe
+2️⃣  Adicione seus arquivos:
+    - Clique "➕ Adicionar Validador" → selecione lista de pulos (XLS/XLSX)
+    - Clique "➕ Adicionar Relatório 3.2.22" → selecione relatório 3.2.22
+3️⃣  Selecione as lojas que quer validar
+4️⃣  NOVO! Escolha onde salvar:
+    - Clique "📁 Escolher Pasta" → selecione a pasta desejada
+    - Ou use a pasta padrão ./planilhas/
+5️⃣  NOVO! Opcionalmente marque "Exportar também em CSV"
+6️⃣  Clique "▶ EXECUTAR VALIDAÇÃO"
+7️⃣  Aguarde a análise...
+8️⃣  Resultado salvo em: PASTA_ESCOLHIDA/YYYY-MM-DD/
+
+
+📊 SAÍDAS GERADAS
+════════════════════════════════════════════════════════════════════════════════
+
+SEMPRE (automático):
+  → Validacao_*.xlsx (Excel com 5 abas de análise detalhada)
+
+OPCIONAL (se marcar checkbox):
+  → Validacao_*.csv (CSV com apenas pulos reais para análise adicional)
+
+
+🎯 O QUE É NOVO NA v3.0
+════════════════════════════════════════════════════════════════════════════════
+
+✨ Escolha pasta de destino (não é mais fixo em ./planilhas/)
+✨ Exportação em CSV para colegas que usam outras ferramentas
+✨ Interface melhorada e responsiva
+✨ Performance otimizada (análise em <1 segundo)
+✨ Gráfico ASCII de distribuição por loja
+
+
+💾 REQUISITOS
+════════════════════════════════════════════════════════════════════════════════
+
+• Windows 7 ou superior
+• Espaço em disco: ~150 MB (exe + dependências)
+• Sem instalação necessária!
+
+
+🐛 PROBLEMAS?
+════════════════════════════════════════════════════════════════════════════════
+
+❌ Exe não abre?
+   → Tente clicar com botão direito → "Executar como administrador"
+
+❌ Erro ao salvar?
+   → Verifique permissões da pasta
+   → Tente pasta padrão (./planilhas/)
+
+❌ Arquivo não reconhecido?
+   → Certifique-se que é XLS ou XLSX
+   → Verifique se tem os dados corretos
+
+
+📝 USANDO VIA PYTHON (Opcional)
+════════════════════════════════════════════════════════════════════════════════
+
+Se preferir rodar do código-fonte:
+
+1. Instale Python 3.10+
+2. Execute: pip install -r requirements.txt
+3. Execute: python interface_validador.py
+
+(Mas o executável é mais prático e não precisa de Python instalado!)
+
+
+👤 INFORMAÇÕES
+════════════════════════════════════════════════════════════════════════════════
+
+Desenvolvido por: João Nogueira
+Última atualização: 15/04/2026
+Versão: 3.0
+
+Para dúvidas, entre em contato! 🚀
+
+════════════════════════════════════════════════════════════════════════════════

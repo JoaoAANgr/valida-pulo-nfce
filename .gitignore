@@ -1,0 +1,38 @@
+# Ambiente Virtual
+.venv/
+venv/
+env/
+ENV/
+
+# Compilação Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Build & Distribuição
+build/
+dist/
+*.exe
+*.egg-info/
+*.egg
+
+# IDE & Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Resultados de validação
+planilhas/
+*.xlsx
+*.csv
+*.tmp
+
+# Arquivos de sistema
+.env
+.env.local
+.env.*.local
+*.log
